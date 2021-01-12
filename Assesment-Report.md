@@ -12,7 +12,8 @@ The proposed application will be using The MVC architecture. The architecture se
 ![alt text](mongo.png)
 The application will use a Non-relational database through mongoDB which is a document-based database that stores data in JSON-like documents. The database uses an existing dataset from the from the company which were previously stored in three CSV documents. As seen in the image above the files  were then converted into three collections and stored under one database. 
 ![mongo-object](mongo-object.png)<br>
-as seen in the image above mongo then converts the data in the files into database objects which can then be aceesed by the Model. 
+as seen in the image above mongo then converts the data in the files into database objects which can then be aceesed by the Model. The users should be able to access this data and intreact with it on the browser. As seen in the image below the maanagers should be able to view data about the astore as it is stored in the database and should be able to use Create, Update and Delete node functions on the data. 
+![interfaces](interfaces.png)
 
 
  allow the Company Managers to be able to peform Node CRUD functions that will be applied to a mongoDB database .MongoDB is a document based 
